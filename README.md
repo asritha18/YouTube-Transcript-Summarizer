@@ -7,6 +7,7 @@
   <li>Flask</li>
   <li>Hugging Face Transformers</li>
 </ul>
+<h4>Python frameworks and libraries</h4>
 <ul>
     <li>Pandas</li>
   <li>Beautiful Soap</li>
