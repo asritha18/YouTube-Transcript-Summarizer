@@ -1,5 +1,5 @@
 # YouTube-Transcript-Summarizer
-<h4>Tech Stack</h4>
+<h3>Tech Stack</h3>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -7,7 +7,7 @@
   <li>Flask</li>
   <li>Hugging Face Transformers</li>
 </ul>
-<h4>Python frameworks and libraries</h4>
+<h3>Python frameworks and libraries</h3>
 <ul>
     <li>Pandas</li>
   <li>Beautiful Soap</li>
