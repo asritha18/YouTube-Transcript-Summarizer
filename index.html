@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Summarizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Summarizer</h1>
+      {% if error %}
+        <div class="alert">{{ error }}</div>
+      {% endif %}
+      <form method="post" enctype="multipart/form-data">
+        <label>
+          <input type="radio" name="type" value="youtube" checked>
+          YouTube URL
+        </label>
+        <input type="text" name="url" placeholder="Enter YouTube URL">
+        <br>
+        <label>
+          <input type="radio" name="type" value="text">
+          Text
+        </label>
+        <textarea name="text" placeholder="Enter text"></textarea>
+        <br>
+        <label>
+          <input type="radio" name="type" value="url">
+          Web Page URL
+        </label>
+        <input type="text" name="url1" placeholder="Enter web page URL">
+        <br>
+        <label>
+          <input type="radio" name="type" value="file">
+          Upload file
+        </label>
+        <input type="file" name="file">
+        <br>
+        <button type="submit">Summarize</button>
+      </form>
+      {% if summary %}
+        <h2>Summary</h2>
+        <p>{{ summary }}</p>
+      {% endif %}
+    </div>
+  </body>
+</html>
