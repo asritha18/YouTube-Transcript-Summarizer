@@ -6,6 +6,8 @@ summarize the transcripts in a readable and coherent format. This is achieved by
 the implementation of the in-built python models of the Hugging Face
 Transformers. So, using this model we can get a summary of any you tube video,
 text file or for any blog with the required format.
+
+In this project we will be able to generate summary for youtube videos with english transcript available. It can generate summary for blog articles. It can also generate summary fro a text file. It uses predefined deep learning models present in Hugging face transformers namely facebook/bart-cnn and pegasus. It uses beautiful soap to extract text from website. Repository contains only excerpt of the code.
 </p>
 
 <h3>Tech Stack</h3>
