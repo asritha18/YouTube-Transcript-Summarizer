@@ -1,15 +1,6 @@
 # YouTube-Transcript-Summarizer
-<p>YouTube summarizer will summarize the content of the video by keeping all the important points and making it short and
-easily understandable. The projected system will utilize natural language
-processing techniques and machine learning algorithms to automatically
-summarize the transcripts in a readable and coherent format. This is achieved by
-the implementation of the in-built python models of the Hugging Face
-Transformers. So, using this model we can get a summary of any you tube video,
-text file or for any blog with the required format.
-
-In this project we will be able to generate summary for youtube videos with english transcript available. It can generate summary for blog articles. It can also generate summary fro a text file. It uses predefined deep learning models present in Hugging face transformers namely facebook/bart-cnn and pegasus. It uses beautiful soap to extract text from website. Repository contains only excerpt of the code.
+<p>YouTube summarizer will summarize the content of the video and generate summary for youtube videos with english transcript available. It uses predefined deep learning models present in Hugging face transformers namely facebook/bart-cnn and pegasus. It uses beautiful soap to extract text from website. This model can also generate summary for blog articles, text file from local device or for any input text.
 </p>
-
 <h3>Tech Stack</h3>
 <ul>
   <li>HTML</li>
